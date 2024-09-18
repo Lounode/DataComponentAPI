@@ -1,8 +1,8 @@
 package kr.toxicity.libraries.datacomponent.nms.v1_20_R4;
 
-import io.papermc.paper.adventure.PaperAdventure;
 import kr.toxicity.libraries.datacomponent.api.Converter;
 import kr.toxicity.libraries.datacomponent.api.TrimPattern;
+import kr.toxicity.libraries.datacomponent.api.adventure.PaperAdventure;
 import kr.toxicity.libraries.datacomponent.api.wrapper.*;
 import kr.toxicity.libraries.datacomponent.api.wrapper.CompoundTag;
 import kr.toxicity.libraries.datacomponent.api.wrapper.Tag;

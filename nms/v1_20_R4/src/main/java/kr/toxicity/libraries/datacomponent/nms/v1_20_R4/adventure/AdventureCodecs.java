@@ -7,6 +7,7 @@ import com.mojang.datafixers.util.Either;
 import com.mojang.datafixers.util.Pair;
 import com.mojang.serialization.*;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
+import io.papermc.paper.adventure.PaperAdventure;
 import net.kyori.adventure.key.Key;
 import net.kyori.adventure.text.*;
 import net.kyori.adventure.text.event.ClickEvent;
@@ -103,11 +104,11 @@ public final class AdventureCodecs {
     static Codec<HoverEvent.ShowItem> showItemCodec(final Codec<Component> componentCodec) {
         return net.minecraft.network.chat.HoverEvent.ItemStackInfo.CODEC.xmap(isi -> {
             @Subst("key") final String typeKey = isi.item.unwrapKey().orElseThrow().location().toString();
-            return HoverEvent.ShowItem.showItem(Key.key(typeKey), isi.count, PaperAdventure.asAdventure(isi.getItemStack().getComponentsPatch()));
+            return HoverEvent.ShowItem.showItem(Key.key(typeKey), isi.count, io.papermc.paper.adventure.PaperAdventure.asAdventure(isi.getItemStack().getComponentsPatch()));
         }, si -> {
-            final Item itemType = BuiltInRegistries.ITEM.get(PaperAdventure.asVanilla(si.item()));
+            final Item itemType = BuiltInRegistries.ITEM.get(io.papermc.paper.adventure.PaperAdventure.asVanilla(si.item()));
             final Map<Key, DataComponentValue> dataComponentsMap = si.dataComponents();
-            final ItemStack stack = new ItemStack(BuiltInRegistries.ITEM.wrapAsHolder(itemType), si.count(), PaperAdventure.asVanilla(dataComponentsMap));
+            final ItemStack stack = new ItemStack(BuiltInRegistries.ITEM.wrapAsHolder(itemType), si.count(), io.papermc.paper.adventure.PaperAdventure.asVanilla(dataComponentsMap));
             return new net.minecraft.network.chat.HoverEvent.ItemStackInfo(stack);
         });
     }

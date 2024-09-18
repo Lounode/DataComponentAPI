@@ -1,4 +1,4 @@
-package kr.toxicity.libraries.datacomponent.api.adventure;
+package kr.toxicity.libraries.datacomponent.nms.v1_20_R4.adventure;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;

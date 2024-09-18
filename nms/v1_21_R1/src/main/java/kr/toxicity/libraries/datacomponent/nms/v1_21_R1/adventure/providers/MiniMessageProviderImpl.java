@@ -1,4 +1,4 @@
-package kr.toxicity.libraries.datacomponent.api.adventure.providers;
+package kr.toxicity.libraries.datacomponent.nms.v1_21_R1.adventure.providers;
 
 import net.kyori.adventure.text.minimessage.MiniMessage;
 import org.jetbrains.annotations.NotNull;

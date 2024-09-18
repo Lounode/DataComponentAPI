@@ -1,4 +1,4 @@
-package kr.toxicity.libraries.datacomponent.api.adventure;
+package kr.toxicity.libraries.datacomponent.nms.v1_21_R1.adventure;
 
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.TextComponent;

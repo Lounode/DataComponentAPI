@@ -1,6 +1,6 @@
-package kr.toxicity.libraries.datacomponent.api.adventure.providers;
+package kr.toxicity.libraries.datacomponent.nms.v1_20_R4.adventure.providers;
 
-import kr.toxicity.libraries.datacomponent.api.adventure.PaperAdventure;
+import kr.toxicity.libraries.datacomponent.nms.v1_20_R4.adventure.PaperAdventure;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.logger.slf4j.ComponentLogger;
 import net.kyori.adventure.text.logger.slf4j.ComponentLoggerProvider;

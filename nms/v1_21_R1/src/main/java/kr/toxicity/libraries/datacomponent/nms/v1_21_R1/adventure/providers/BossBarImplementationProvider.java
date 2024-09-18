@@ -1,6 +1,6 @@
-package kr.toxicity.libraries.datacomponent.api.adventure.providers;
+package kr.toxicity.libraries.datacomponent.nms.v1_21_R1.adventure.providers;
 
-import kr.toxicity.libraries.datacomponent.api.adventure.BossBarImplementationImpl;
+import kr.toxicity.libraries.datacomponent.nms.v1_21_R1.adventure.BossBarImplementationImpl;
 import net.kyori.adventure.bossbar.BossBar;
 import net.kyori.adventure.bossbar.BossBarImplementation;
 import org.jetbrains.annotations.NotNull;

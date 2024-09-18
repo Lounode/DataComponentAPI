@@ -1,4 +1,4 @@
-package kr.toxicity.libraries.datacomponent.api.adventure;
+package kr.toxicity.libraries.datacomponent.nms.v1_20_R4.adventure;
 
 import io.papermc.paper.chat.ChatRenderer;
 import io.papermc.paper.event.player.AbstractChatEvent;
@@ -45,7 +45,7 @@ import static net.kyori.adventure.text.serializer.legacy.LegacyComponentSerializ
 
 @DefaultQualifier(NonNull.class)
 public final class ChatProcessor {
-    static final ResourceKey<ChatType> PAPER_RAW = ResourceKey.create(Registries.CHAT_TYPE, ResourceLocation.fromNamespaceAndPath(ResourceLocation.PAPER_NAMESPACE, "raw"));
+    static final ResourceKey<ChatType> PAPER_RAW = ResourceKey.create(Registries.CHAT_TYPE, new ResourceLocation(ResourceLocation.PAPER_NAMESPACE, "raw"));
     static final String DEFAULT_LEGACY_FORMAT = "<%1$s> %2$s"; // copied from PlayerChatEvent/AsyncPlayerChatEvent
     final MinecraftServer server;
     final ServerPlayer player;

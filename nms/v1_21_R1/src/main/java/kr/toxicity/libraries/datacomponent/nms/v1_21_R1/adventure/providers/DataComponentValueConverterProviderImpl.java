@@ -1,10 +1,10 @@
-package kr.toxicity.libraries.datacomponent.api.adventure.providers;
+package kr.toxicity.libraries.datacomponent.nms.v1_21_R1.adventure.providers;
 
 import com.google.gson.JsonElement;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import com.mojang.serialization.DynamicOps;
 import com.mojang.serialization.JsonOps;
-import kr.toxicity.libraries.datacomponent.api.adventure.PaperAdventure;
+import kr.toxicity.libraries.datacomponent.nms.v1_21_R1.adventure.PaperAdventure;
 import net.kyori.adventure.key.Key;
 import net.kyori.adventure.nbt.api.BinaryTagHolder;
 import net.kyori.adventure.text.event.DataComponentValue;

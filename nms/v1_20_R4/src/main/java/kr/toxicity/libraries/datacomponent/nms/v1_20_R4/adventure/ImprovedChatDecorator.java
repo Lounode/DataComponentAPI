@@ -1,4 +1,4 @@
-package kr.toxicity.libraries.datacomponent.api.adventure;
+package kr.toxicity.libraries.datacomponent.nms.v1_20_R4.adventure;
 
 import io.papermc.paper.event.player.AsyncChatCommandDecorateEvent;
 import io.papermc.paper.event.player.AsyncChatDecorateEvent;

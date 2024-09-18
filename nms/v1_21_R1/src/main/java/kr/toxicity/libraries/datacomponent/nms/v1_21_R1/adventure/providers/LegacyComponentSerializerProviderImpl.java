@@ -1,6 +1,6 @@
-package kr.toxicity.libraries.datacomponent.api.adventure.providers;
+package kr.toxicity.libraries.datacomponent.nms.v1_21_R1.adventure.providers;
 
-import kr.toxicity.libraries.datacomponent.api.adventure.PaperAdventure;
+import kr.toxicity.libraries.datacomponent.nms.v1_21_R1.adventure.PaperAdventure;
 import net.kyori.adventure.text.serializer.legacy.LegacyComponentSerializer;
 import org.jetbrains.annotations.NotNull;
 

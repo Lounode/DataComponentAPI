@@ -1,4 +1,4 @@
-package kr.toxicity.libraries.datacomponent.api.adventure;
+package kr.toxicity.libraries.datacomponent.nms.v1_21_R1.adventure;
 
 import com.google.common.base.Suppliers;
 import com.mojang.datafixers.util.Pair;

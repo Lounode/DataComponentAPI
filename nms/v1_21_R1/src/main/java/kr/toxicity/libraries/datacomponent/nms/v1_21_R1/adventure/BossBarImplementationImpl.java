@@ -1,4 +1,4 @@
-package kr.toxicity.libraries.datacomponent.api.adventure;
+package kr.toxicity.libraries.datacomponent.nms.v1_21_R1.adventure;
 
 import com.google.common.collect.Collections2;
 import net.kyori.adventure.bossbar.BossBar;
